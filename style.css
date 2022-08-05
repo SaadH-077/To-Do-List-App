@@ -1,0 +1,77 @@
+:root {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    margin:0;
+}
+#backcover {
+    width:100%;
+}
+#backcover img {
+    width :100%;
+    height:auto;
+}
+.header {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#backcover p {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    color:white;
+    left:30%;
+}
+#backcover input {
+    left:30%;
+    top:15%;
+    width:35rem;
+    height: 2.5rem;
+    padding-left:1rem;
+    border-radius:0.3rem;
+    font-size: 1.2rem;
+    border:0;
+}
+#backcover button {
+    height: 2.6rem;
+    width: 2.5rem;
+    z-index: 2;
+    top:15%;
+    left:65.1%;
+    background-color: blue;
+    border:none;
+    border-radius:0 0.3rem 0.3rem 0;
+    cursor:pointer;
+}
+#tasks {
+    position: absolute;
+    z-index: 1;
+    top:28%;
+    left:30%;
+    width:38%;
+    min-height: 50vh;
+    background-color:white;
+    box-shadow:0px 0px 20px 0px rgba(128, 128, 129, 0.623);
+    border-radius:0.5rem;
+    padding:0;
+}
+#tasks ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+}
+#tasks ul li {
+    padding:0.9rem 1.1rem 0.9rem 1.1rem;
+    cursor:pointer;
+}
+#tasks ul li:hover {
+    background-color: rgb(218, 218, 218);
+    border-radius: inherit;
+}
+#tasks i {
+    color: grey;
+}
